@@ -226,7 +226,6 @@ export default function ImpactMetrics() {
                   <MetricCard
                     value={metric.value}
                     suffix={metric.suffix}
-                    prefix={metric.prefix || ""}
                     label={metric.label}
                     sublabel={metric.sublabel}
                     isVisible={isVisible}
